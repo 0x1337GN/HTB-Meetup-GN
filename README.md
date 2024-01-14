@@ -1,5 +1,5 @@
 # Hack the Box Meetup Vancouver, WA
-Information and resources for the Hack the Box Vancouver, WA Meetup group.
+How to get started with the Hack the Box Vancouver, WA Meetup group.
 
 # Meetings
 We meet online in our Discord server the second Saturday of every month at 12pm Pacific time.
