@@ -8,7 +8,10 @@ We meet online in our Discord server the second Saturday of every month at 12pm 
 1. Join our meetup group and attend our next event: https://www.meetup.com/hack-the-box-meetup-vancouver-wa/
 2. Join Hack the Box, if you haven't already: https://app.hackthebox.com/invite
 3. Get your computer prepped (see below).
- 
+
+This is a great overview of how to begin your ethical hacking journey:
+https://www.hackthebox.com/blog/learn-to-hack-beginners-bible
+
 # Getting Your Computer Prepped
 Though there are many ways to get your computer set up, we recommend using virtualization software, downloading a pre-built Kali Linux virtual machine and using that to connect to Hack the Box.
 ## Download and Install Virtualization Software
@@ -43,6 +46,15 @@ From within your Kali Linux VM:
 
 Source: https://help.hackthebox.com/en/articles/5185687-introduction-to-lab-access
 
-# Getting Started
-This is a great overview of how to begin your ethical hacking journey:
-https://www.hackthebox.com/blog/learn-to-hack-beginners-bible
+# Troubleshooting
+Sometimes things go sideways.
+## VPN
+If you're not able to connect establish a VPN connection to Hack the Box:
+1. Verify you're running the openvpn command with root privileges
+2. Try changing the VPN server you're connecting to and then re-download the VPN connection pack
+## Machines
+If the box you're working on isn't responding or working quite right:
+1. Reset the box
+## Other
+If the issue you're experiencing isn't listed above, check this page for the issue:
+https://help.hackthebox.com/en/articles/5185536-connection-troubleshooting
