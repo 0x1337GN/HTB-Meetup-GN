@@ -1,60 +1,60 @@
-# Hack the Box Meetup Vancouver, WA
-How to get started with the Hack the Box Vancouver, WA Meetup group.
+# Hack the Box Meetup Conakry, GN
+Comment démarrer avec le groupe HacktheBox Meetup Conakry, GN.
 
-# Meetings
-We meet online in our Discord server the second Saturday of every month at 12pm Pacific time.
+# Reunions
+Nous nous réunissons en ligne sur notre serveur Discord 2fois par mois soit environ chaque 15 jours.
 
 # Getting Started
-1. Join our meetup group and attend our next event: https://www.meetup.com/hack-the-box-meetup-vancouver-wa/
-2. Join Hack the Box, if you haven't already: https://app.hackthebox.com/invite
-3. Get your computer prepped (see below).
+1. Rejoignez notre groupe de rencontre et participez à nos prochain événement : https://www.meetup.com/fr-FR/hack-the-box-meetup-conakry-gn/
+2. Rejoignez HacktheBox, si vous ne l'avez pas encore fait : https://app.hackthebox.com/home
+3. Préparez votre ordinateur (voir ci-dessous).
 
-This is a great overview of how to begin your ethical hacking journey:
+Voici un excellent aperçu pour commencer votre parcours en Cybersecurite :
 https://www.hackthebox.com/blog/learn-to-hack-beginners-bible
 
-# Getting Your Computer Prepped
-Though there are many ways to get your computer set up, we recommend using virtualization software, downloading a pre-built Kali Linux virtual machine and using that to connect to Hack the Box.
-## Download and Install Virtualization Software
-1. Download VMware Workstation Player: https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
-2. Once downloaded, right-click the file and click **Run as Administrator**
-3. Follow the on-screen instructions
-4. Restart your computer
+# Préparer votre ordinateur
+Bien qu'il existe de nombreuses façons de préparer votre ordinateur, nous recommandons d'utiliser un logiciel de virtualisation, de télécharger une machine virtuelle `Kali Linux `pré-construite et d'utiliser celle-ci pour vous connecter à HacktheBox.
+## Télécharger et Installer un Logiciel de Virtualisation
+1. Téléchargez VMware Workstation Player : https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+2. Une fois téléchargé, faites un clic droit sur le fichier et sélectionnez **Run as Administrator**
+3. Suivez les instructions à l'écran
+4. Redémarrez votre ordinateur
 
-## Download Pre-built Virtual Machine (VM)
-1. Download Kali Linux VM from: https://www.kali.org/get-kali/#kali-virtual-machines
-2. Click on the **VMware** option
-3. Once downloaded, unzip the file (download 7zip to unzip the file: https://www.7-zip.org/download.html)
-4. Open VMware Workstation Player
-5. Click **Open a Virtual Machine**
-6. Navigate to the unzipped folder from above and select the file ending in .vmx
-7. Make any needed changes to the assigned resources
-8. Click the play button to start the VM
-9. Default username/password: kali/kali
+## Télécharger la Machine Virtuelle Pré-construite (VM)
+1. Téléchargez la VM Kali Linux depuis : https://www.kali.org/get-kali/#kali-virtual-machines
+2. Cliquez sur l'option  **VMware** 
+3. Une fois téléchargée, décompressez le fichier (téléchargez 7zip pour décompresser le fichier : https://www.7-zip.org/download.html)
+4. Ouvrez VMware Workstation Player
+5. Cliquez sur **Ouvrir une Machine Virtuelle**
+6. Accédez au dossier décompressé ci-dessus et sélectionnez le fichier se terminant par ``.vmx``
+7. Effectuez les modifications nécessaires aux ressources attribuées
+8. Cliquez sur le bouton de lecture pour démarrer la VM
+9. Nom d'utilisateur/mot de passe par défaut : `kali/kali`
 
 Source: https://www.kali.org/docs/virtualization/import-premade-vmware/
 
-## Connecting to Hack the Box
-From within your Kali Linux VM:
-1. Log in to your Hack the Box account: https://app.hackthebox.com/
-2. Click **CONNECT TO HTB**
-3. Click **Machines**
-4. Click **OpenVPN**
-5. In **VPN ACCESS**, choose a the region you're in, or the closest region available
-6. In **VPN SERVERS**, choose the server with the lowest latency (number on the right)
-7. Click **DOWNLOAD VPN**
-8. Open a terminal in Kali and run (replacing username with your username): sudo openvpn ~/Download/lab_username.ovpn
+## Connexion à HacktheBox
+Depuis votre VM Kali Linux :
+1. Connectez-vous à votre compte HacktheBox: https://app.hackthebox.com/home
+2. Cliquez sur **CONNECT TO HTB**
+3. Cliquez sur **Machines**
+4. Cliquez sur **OpenVPN**
+5. Dans **VPN ACCESS**, choisissez la région dans laquelle vous vous trouvez, ou la région la plus proche disponible
+6. Dans **VPN SERVERS**, choisissez le serveur avec la latence la plus faible (nombre à droite)
+7. Cliquer sur **DOWNLOAD VPN**
+8. Ouvrez un terminal dans Kali et exécutez (en remplaçant "nom_utilisateur" par votre nom d'utilisateur) : ``sudo openvpn ~/Download/lab_nom_utilisateur.ovpn``
 
 Source: https://help.hackthebox.com/en/articles/5185687-introduction-to-lab-access
 
-# Troubleshooting
-Sometimes things go sideways.
+# Dépannage
+Parfois, les choses ne se passent pas comme prévu.
 ## VPN
-If you're not able to connect establish a VPN connection to Hack the Box:
-1. Verify you're running the openvpn command with root privileges
-2. Try changing the VPN server you're connecting to and then re-download the VPN connection pack
+Si vous ne parvenez pas à établir une connexion VPN à HacktheBox :
+1. Vérifiez que vous exécutez la commande openvpn avec des privilèges `root`
+2. Essayez de changer le serveur VPN auquel vous vous connectez, puis re-téléchargez le pack de connexion VPN
 ## Machines
-If the box you're working on isn't responding or working quite right:
-1. Reset the box
-## Other
-If the issue you're experiencing isn't listed above, check this page for the issue:
+Si la machine sur laquelle vous travaillez ne répond pas correctement :
+1. Réinitialisez la machine
+## Autres
+Si le problème que vous rencontrez n'est pas répertorié ci-dessus, consultez cette page pour le problème :
 https://help.hackthebox.com/en/articles/5185536-connection-troubleshooting
